@@ -1,16 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <Sdk Name="Aspire.AppHost.Sdk" Version="9.5.0" />
+<Project Sdk="Aspire.AppHost.Sdk/13.1.1">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <IsAspireHost>true</IsAspireHost>
     <UserSecretsId>22f8485f-c345-41fa-9f21-ba96b1e511d1</UserSecretsId>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Aspire.Hosting.AppHost" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Todo.Web\Server\Todo.Web.Server.csproj" />
